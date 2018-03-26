@@ -5,6 +5,8 @@
 
 
 import numpy as np
+import h5py
+import matplotlib.pyplot as plt
 import pandas as pd
 import matplotlib.pyplot as plt
 from keras.utils import to_categorical
@@ -278,10 +280,6 @@ score
 
 
 #Neural Networks Implementation
-import numpy as np
-import h5py
-import matplotlib.pyplot as plt
-
 
 get_ipython().run_line_magic('matplotlib', 'inline')
 plt.rcParams['figure.figsize'] = (5.0, 4.0) # set default size of plots
